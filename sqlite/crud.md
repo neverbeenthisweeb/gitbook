@@ -28,8 +28,8 @@ sqlite> SELECT * FROM books;
 
 ## Update
 
-WIP
+_Work in progress_
 
 ## Delete
 
-WIP
+_Work in progress_
