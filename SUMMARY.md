@@ -1,5 +1,6 @@
 # Table of contents
 
-* [SQLite](README.md)
-  * [DB and Table](sqlite/db-and-table.md)
-  * [CRUD](sqlite/crud.md)
+* [Tech Garden](README.md)
+  * [SQLite](tech-garden/sqlite/README.md)
+    * [DB and Table](tech-garden/sqlite/db-and-table.md)
+    * [CRUD](tech-garden/sqlite/crud.md)
