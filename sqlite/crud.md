@@ -28,8 +28,44 @@ sqlite> SELECT * FROM books;
 
 ## Update
 
-_Work in progress_
+Before simulating an update, let's first add one data to the `books` table.
+
+```sql
+sqlite> INSERT INTO books (id, name, author)
+   ...> VALUES
+   ...> (1, 'herbook', 'herauthor');
+```
+
+```sql
+sqlite> SELECT * FROM books;
+1|mybook|myauthor
+2|hername|herauthor
+```
+
+To update data with `id` of `1`:
+
+```sql
+sqlite> UPDATE books
+   ...> SET author = 'newauthor'
+   ...> WHERE id = 1;
+```
+
+```sql
+sqlite> SELECT * FROM books;
+1|mybook|newauthor
+2|hername|herauthor
+```
 
 ## Delete
 
-_Work in progress_
+To delete data with `id` of `1`:
+
+```sql
+sqlite> DELETE FROM books
+   ...> WHERE id = 1;
+```
+
+```sql
+sqlite> SELECT * FROM books;
+2|hername|herauthor
+```
