@@ -42,5 +42,3 @@ sqlite> CREATE TABLE books(
 sqlite> .tables
 books
 ```
-
-It looks like we've created the `books` table. Now, we are going to do CRUD!

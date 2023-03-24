@@ -1,6 +1,2 @@
----
-layout: landing
----
-
-# Tech Garden
+# Page 3
 
