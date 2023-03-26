@@ -52,4 +52,4 @@ func BubbleSort(array[] int)[]int {
 }
 ```
 
-As we can see, the `BubbleSort` function iterates through the `i` and `j` completely. This is why we often have O(n^2) time complexity.
+As we can see, the `BubbleSort` function iterates through the `i` and `j` completely. This is why we often have an O(n^2) time complexity.
