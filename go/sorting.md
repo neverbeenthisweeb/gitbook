@@ -16,19 +16,21 @@ func Slice(x any, less func(i, j int) bool)
 Sorting in ascending manner.
 
 ```go
-nums := []int{1, 3, 2, 4} // 1, 3, 2, 4
+nums := []int{1, 3, 2, 4}
 sort.Slice(nums, func(i, j int) bool {
     return nums[i] < nums[j]
-}) // sorted to 1, 2, 3, 4
+})
+fmt.Println(nums) // 1, 2, 3, 4
 ```
 
 To sort in descending manner, simply we just need to change from `nums[i] < nums[j]` to `nums[i] > nums[j].`
 
 ```go
-nums := []int{1, 3, 2, 4} // 1, 3, 2, 4
+nums := []int{1, 3, 2, 4}, 4
 sort.Slice(nums, func(i, j int) bool {
     return nums[i] > nums[j]
-}) // sorted to 4, 3, 2, 1
+})
+fmt.Println(nums) // 4, 3, 2, 1
 ```
 
 Simple right? Now, let's assume that the interviewer prohibits us from using `sort.Slice` and we decide to use the bubble sort algorithm.
