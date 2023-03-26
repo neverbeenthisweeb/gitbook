@@ -3,4 +3,5 @@
 * [SQLite](README.md)
   * [DB and Table](sqlite/db-and-table.md)
   * [CRUD](sqlite/crud.md)
-* [Go](go.md)
+* [Go](go/README.md)
+  * [Sorting](go/sorting.md)
