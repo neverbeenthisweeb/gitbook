@@ -24,7 +24,7 @@ sort.Slice(nums, func(i, j int) bool {
 
 To sort in descending manner, simply we just need to change from `nums[i] < nums[j]` to `nums[i] > nums[j].`
 
-```
+```go
 nums := []int{1, 3, 2, 4} // 1, 3, 2, 4
 sort.Slice(nums, func(i, j int) bool {
     return nums[i] > nums[j]
