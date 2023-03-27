@@ -1,6 +1,6 @@
 # Sorting
 
-Sorting integers in Go is quite straightforward because you only need to call `sort.Slice`. However, there are some cases where you are prohibited to call a helper (e.g. **the interview**).
+Sorting numbers in Go is quite straightforward because you only need to call `sort.Slice`. However, there are some cases where you are prohibited to call a helper (e.g. **the interview**).
 
 As a mitigation, we are going to learn a simple (yet slow) sorting algorithm. Bubble sort.
 
