@@ -1,6 +1,6 @@
 ---
 description: >-
-  ^ Put a title, use a catch phrases (e.g. "MySQL Migration in Go", "Dockerize
+  ^ Put a title, use a simple phrases (e.g. "MySQL Migration in Go", "Dockerize
   Go Web Application", and "Integration Testing in Go")
 ---
 
