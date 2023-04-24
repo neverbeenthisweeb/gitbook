@@ -1,7 +1,7 @@
 ---
 description: >-
-  ^ Put a title, use a simple phrases (e.g. "MySQL Migration in Go", "Dockerize
-  Go Web Application", and "Integration Testing in Go")
+  ^ Put a title, use a catchy phrases (e.g. "How to Migrate MySQL in Go", "How
+  to Dockerize Go Web Application", and "Integration Testing in Go")
 ---
 
 # ✍ Template
