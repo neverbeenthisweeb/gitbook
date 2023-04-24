@@ -2,8 +2,8 @@
 description: My writing backlog
 ---
 
-# Backlog
+# 👀 Backlog
 
-* [x] How to do MySQL Migration in Go
+* [ ] How to do MySQL Migration in Go
 * [ ] How to do SQLite Migration in Go
 *
